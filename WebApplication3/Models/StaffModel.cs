@@ -14,6 +14,8 @@ namespace WebApplication3.Models
             name = staffModel.name;
             phone = staffModel.phone;
             email = staffModel.email;
+
+
         }
         public int id { get; set; }
         public string name { get; set; }
