@@ -14,6 +14,7 @@ namespace WebApplication3.Models
             name = staffModel.name;
             phone = staffModel.phone;
             email = staffModel.email;
+            image = staffModel.image;
 
 
         }
@@ -21,5 +22,6 @@ namespace WebApplication3.Models
         public string name { get; set; }
         public string phone { get; set; }
         public string email { get; set; }
+        public byte[] image { get; set; }
     }
 }

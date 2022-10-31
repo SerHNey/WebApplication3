@@ -15,7 +15,7 @@ namespace WebApplication3.Controllers
 {
     public class StaffsController : ApiController
     {
-        private PrimerForApiStaffs db = new PrimerForApiStaffs();
+        private ModelEntities db = new ModelEntities();
 
         // GET: api/Staffs
         [ResponseType(typeof(List<StaffModel>))]
