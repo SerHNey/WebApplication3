@@ -13,10 +13,10 @@ namespace WebApplication3.Entities
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class PrimerForApiStaffs : DbContext
+    public partial class StaffEntities : DbContext
     {
-        public PrimerForApiStaffs()
-            : base("name=PrimerForApiStaffs")
+        public StaffEntities()
+            : base("name=StaffEntities")
         {
         }
     

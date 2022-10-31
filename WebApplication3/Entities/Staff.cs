@@ -18,5 +18,6 @@ namespace WebApplication3.Entities
         public string name { get; set; }
         public string phone { get; set; }
         public string email { get; set; }
+        public byte[] image { get; set; }
     }
 }
