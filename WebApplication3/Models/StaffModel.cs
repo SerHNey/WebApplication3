@@ -22,6 +22,6 @@ namespace WebApplication3.Models
         public string name { get; set; }
         public string phone { get; set; }
         public string email { get; set; }
-        public byte[] image { get; set; }
+        public string image { get; set; }
     }
 }
